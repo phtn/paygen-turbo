@@ -1,12 +1,15 @@
-# Vite + React TS & Elysia + tRPC Turborepo
+# PayGen Turborepo Vite + React TS & Elysia + tRPC
 
 Backend:
+
 - apps/server (port: 8080) - Elysia + tRPC
 
 Frontend:
-- apps/client (port: 5173) - Vite + React TS 
+
+- apps/client (port: 5173) - Vite + React TS
 
 Utility:
+
 - packages/libs - tRPC connector
 
 Path:
