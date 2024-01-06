@@ -1,22 +1,18 @@
-import { useEffect } from 'react'
-import { trpc } from 'libs'
-import './App.css'
+import { useEffect } from "react";
+import { trpc } from "libs";
+import "./App.css";
 
 const App = () => {
-
   useEffect(() => {
-
     const connect = async () => {
-      await trpc.connect.query().then(response => console.log(response))
-    }
+      await trpc.connect.query().then((response) => console.log(response));
+    };
     return () => {
-      connect()
-    }
-  }, [])
+      connect();
+    };
+  }, []);
 
-  return (
-    <p>Vite + React TS + ElysiaJS + tRPC + Turborepo</p>
-  )
-}
+  return <p>Vite + React TS + ElysiaJS + tRPC + Turborepo + Vercel </p>;
+};
 
-export default App
+export default App;
