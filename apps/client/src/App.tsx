@@ -12,7 +12,7 @@ const App = () => {
     };
   }, []);
 
-  return <p>Vite + React TS + ElysiaJS + tRPC + Turborepo + Vercel </p>;
+  return <p>Vite + React TS + ElysiaJS + tRPC + Turborepo + Vercel! </p>;
 };
 
 export default App;
