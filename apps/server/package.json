@@ -12,7 +12,7 @@
     "@elysiajs/swagger": "^0.7.1",
     "@elysiajs/trpc": "^0.8.0",
     "@sinclair/typebox": "^0.31.15",
-    "@trpc/server": "@10.45.0",
+    "@trpc/server": "latest",
     "elysia": "^0.7.6"
   },
   "devDependencies": {
